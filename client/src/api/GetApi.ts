@@ -47,7 +47,7 @@ export const getBookList = async (
 };
 
 export const getCartList = async (
-  setCartList: (cartList: CartListType[]) => void,
+  setCartList?: (cartList: CartListType[]) => void,
 ) => {
   try {
     const response = await axios.get(`${SERVER_HOST}/cart`, {
@@ -56,7 +56,8 @@ export const getCartList = async (
         Authorization: getCookie('accessToken'),
       },
     });
-    setCartList(response.data);
+    setCartList && setCartList(response.data);
+    return response.data;
   } catch (err) {
     console.log(err);
     throw err;
@@ -202,6 +203,28 @@ export const getOrderHistory = async (
   try {
     const response = await axios.get(
       `${SERVER_HOST}/order/ship?page=${page}&size=${itemsCountPerPage}`,
+      {
+        headers: {
+          'ngrok-skip-browser-warning': true,
+          Authorization: getCookie('accessToken'),
+        },
+      },
+    );
+    const result = response.data;
+    return result;
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+};
+
+export const getAdminCSList = async (
+  page: number,
+  itemsCountPerPage: number,
+) => {
+  try {
+    const response = await axios.get(
+      `${SERVER_HOST}/admin/cs?page=${page}&size=${itemsCountPerPage}`,
       {
         headers: {
           'ngrok-skip-browser-warning': true,
