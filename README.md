@@ -37,6 +37,27 @@
 </table>
 <br />
 
+# 🔍 설명
+
+  ## 개발배경
+
+  요리라는 특정 장르를 더욱 상세하게 세분화하여 전문성과 쇼핑의 질을 높인 사이트 필요
+  
+ <br />
+
+  ## 목표
+
+  - React와 TypeScript를 사용해 도서 쇼핑에 필요한 대부분의 기능이 내장된 쇼핑몰 구현
+  - 필수불가결한 기능만 배치함으로서 자연스러운 흐름과 쉬운 사용자경험을 제공해 쇼핑의 질을 높이고 자연스러운 결제를 유도
+
+  <br />
+  
+  ## 기대효과
+
+  - 전문성을 가진 쇼핑몰의 긍정적인 쇼핑 경험을 통해 소상공인의 생존 역량 확대
+
+  <br />
+  
 # 📝 문서
 
 ### [API 명세서](https://purple-broker-064.notion.site/API-1ebe8150df5143b88a61a7d582995d95?pvs=4)
@@ -50,6 +71,11 @@
 <br />
 <div align="center">
   <img src="https://github.com/HyeranJo/bookbuddy/assets/120698922/fd4ca92a-c7f1-459f-9465-d999cd4b62ba.png" width="800">
+</div>
+
+# 📺 Flow chart
+<div align="center">
+  <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/500df3d6-9fb4-4a4d-8aca-cf8d2c25246e" width="800">
 </div>
 
 # 📺 화면 및 기능
