@@ -10,7 +10,8 @@
 <br />
 
 # 🔗 배포 주소
-[bookbuddy](https://bookbuddy-cook.netlify.app/)
+Netlify : https://bookbuddy-cook.netlify.app/ <br />
+AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 <br /><br /><br /><br />
 
 # 👨‍👩‍👧‍👧 팀원 소개
