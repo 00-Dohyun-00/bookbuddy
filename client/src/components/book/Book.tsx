@@ -27,6 +27,7 @@ const Book = (props: BookProps) => {
           onClick={() => {
             navigate(`/book/${props.id}`);
           }}
+          alt={`${props.name}`}
         />
       </Styled_Book.wrapper>
       <Styled_Book.icon
