@@ -19,7 +19,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   <thead>
     <tr>
       <th width="333">조혜란</th>
-      <th width="333">이도현</th>
+      <th width="333">✅이도현(본인)</th>
       <th width="333"">최연동</th>
     </tr>
   </thead>
