@@ -23,6 +23,10 @@ export const Styled_PaginationBox = {
         gap: calc(30px / ${screenScale.tablet});
         margin-top: calc(10px / ${screenScale.tablet}) 0px calc(200px / ${screenScale.tablet}) 0px ;
       `}
+      ${DeviceQuery.mobile`
+        gap: calc(30px / ${screenScale.mobile});
+        margin-top: calc(10px / ${screenScale.mobile}) 0px calc(200px / 1.5) 0px ;
+      `}
 
       li {
         // .active에 focus 안 주어도 자동 focus됨
@@ -52,6 +56,9 @@ export const Styled_PaginationBox = {
             ${DeviceQuery.tablet`
               font-size: calc(var(--third-title-font-size) / ${screenScale.tablet});
             `}
+            ${DeviceQuery.mobile`
+              font-size: calc(var(--third-title-font-size) / 1.5);
+            `}
           }
         }
 
@@ -68,6 +75,9 @@ export const Styled_PaginationBox = {
           `}
           ${DeviceQuery.tablet`
             font-size: calc(var(--third-title-font-size) / ${screenScale.tablet});
+          `}
+          ${DeviceQuery.mobile`
+            font-size: calc(var(--third-title-font-size) / 1.5);
           `}
         }
       }

@@ -27,6 +27,11 @@ const Styled_Bookdetail = {
       margin-top: calc(44px / ${screenScale.tablet});
       width: calc(1297px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      margin-left: 0;
+      margin-top: 9.5rem;
+      width: 100vw;
+    `}
   `,
   Container: styled.div`
     display: flex;
@@ -43,6 +48,10 @@ const Styled_Bookdetail = {
     `}
     ${DeviceQuery.tablet`
       gap: calc(120px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      gap: 2rem;
+      flex-flow: column;
     `}
   `,
   ImageWrapper: styled.div`
@@ -93,6 +102,9 @@ const Styled_Bookdetail = {
     `}
     ${DeviceQuery.tablet`
       width: calc(400px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: 240px;
     `}
   `,
   icon: styled.div`

@@ -6,6 +6,9 @@ export const Styled_Layout = {
   Container: styled.div`
     display: flex;
     justify-content: center;
+    ${DeviceQuery.mobile`
+      flex-flow: column;
+    `}
   `,
   // 선택(sidebar 있는 경우)
   Div_WithSidebar: styled.div`

@@ -24,6 +24,12 @@ const Styled_Book = {
       height: calc(270px / ${screenScale.tablet});
       gap: calc(2px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: calc(170px / ${screenScale.mobile});
+      height: calc(270px / ${screenScale.mobile});
+      gap: calc(2px / ${screenScale.mobile});
+      margin: 10px 0;
+    `}
   `,
   wrapper: styled.div`
     width: 170px;
@@ -46,6 +52,10 @@ const Styled_Book = {
       width: calc(170px / ${screenScale.tablet});
       height: calc(220px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: calc(170px / ${screenScale.mobile});
+      height: calc(220px / ${screenScale.mobile});
+    `}
   `,
   img: styled.img`
     width: 140px;
@@ -62,6 +72,10 @@ const Styled_Book = {
     ${DeviceQuery.tablet`
       width: calc(140px / ${screenScale.tablet});
       height: calc(190px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: calc(140px / ${screenScale.mobile});
+      height: calc(190px / ${screenScale.mobile});
     `}
   `,
   icon: styled.div`
@@ -89,6 +103,12 @@ const Styled_Book = {
       height: calc(30px / ${screenScale.tablet});
       left: calc(140px / ${screenScale.tablet});
       top: calc(2px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: calc(30px / ${screenScale.mobile});
+      height: calc(30px / ${screenScale.mobile});
+      left: calc(140px / ${screenScale.mobile});
+      top: calc(2px / ${screenScale.mobile});
     `}
   `,
   content: styled.div`
@@ -119,6 +139,13 @@ const Styled_Book = {
       padding-left: calc(5px / ${screenScale.tablet});
       font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
     `}
+     ${DeviceQuery.mobile`
+      width: calc(170px / ${screenScale.mobile});
+      height: calc(50px / ${screenScale.mobile});
+      margin-top: calc(-30px / ${screenScale.mobile});
+      padding-left: calc(5px / ${screenScale.mobile});
+      font-size: calc(var(--basic-font-size) / ${screenScale.mobile});
+    `}
   `,
   name: styled.p`
     width: 140px;
@@ -142,6 +169,10 @@ const Styled_Book = {
       width: calc(140px / ${screenScale.tablet});
       padding-right: calc(10px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: calc(140px / ${screenScale.mobile});
+      padding-right: calc(10px / ${screenScale.mobile});
+    `}
   `,
   price: styled.p`
     width: 140px;
@@ -154,6 +185,9 @@ const Styled_Book = {
     `}
     ${DeviceQuery.tablet`
       width: calc(140px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: calc(140px / ${screenScale.mobile});
     `}
   `,
 };

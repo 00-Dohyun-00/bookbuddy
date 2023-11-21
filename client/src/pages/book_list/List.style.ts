@@ -6,6 +6,7 @@ export const Styled_List = {
     display: flex;
     justify-content: center;
   `,
+
   Div: styled.div`
     width: 1512px;
     display: flex;
@@ -18,6 +19,9 @@ export const Styled_List = {
     `}
     ${DeviceQuery.tablet`
       width: calc(1512px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: 100%;
     `}
   `,
   Content: styled.section`
@@ -47,6 +51,15 @@ export const Styled_List = {
       padding-left: calc(53.5px / ${screenScale.tablet});
       padding-right: calc(53.5px / ${screenScale.tablet});
       padding-top: calc(44px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: 100%;
+      margin-left: 0;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 1rem;
+      margin-top: 9.5rem;
+      border-top: 1px solid var(--light-gray-color)
     `}
 
     & > .pagination {
@@ -91,6 +104,9 @@ export const Styled_List = {
     ${DeviceQuery.tablet`
       font-size: calc(var(--title-font-size) / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--title-font-size) / 1.5);
+    `}
   `,
   SortList: styled.li`
     list-style: none;
@@ -120,6 +136,9 @@ export const Styled_List = {
     `}
     ${DeviceQuery.tablet`
       font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--basic-font-size) / 1.5);
     `}
      &:hover {
         cursor: pointer;
@@ -159,6 +178,10 @@ export const Styled_List = {
     `}
     ${DeviceQuery.tablet`
       gap: calc(66px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      gap: calc((100% - 255px) / 2);
+      display: flex;
     `}
   `,
 };
