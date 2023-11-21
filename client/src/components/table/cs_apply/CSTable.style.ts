@@ -23,6 +23,9 @@ export const Styled_CSTable = {
         screenScale.tablet
       });
     `}
+    ${DeviceQuery.mobile`
+      width: 100vw;
+    `}
   `,
   H1: styled.h1`
     font-size: var(--subtitle-font-size);
@@ -41,6 +44,11 @@ export const Styled_CSTable = {
     ${DeviceQuery.tablet`
       margin-bottom: calc(20px / ${screenScale.tablet});
       font-size:calc(var(--subtitle-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      margin-bottom: calc(20px / ${screenScale.mobile});
+      font-size:calc(var(--subtitle-font-size) / 1.5);
+      margin: 20px 1.2rem;
     `}
 
     & > div {
@@ -64,6 +72,10 @@ export const Styled_CSTable = {
     ${DeviceQuery.tablet`
       margin-left: calc(15px / ${screenScale.tablet});
       font-size:calc(var(--message-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      margin-left: calc(15px / ${screenScale.mobile});
+      font-size:calc(var(--message-font-size) / 1.5);
     `}
   `,
   Table: styled.table<CSTableProps>`
@@ -95,6 +107,12 @@ export const Styled_CSTable = {
       font-size:calc(var(--basic-font-size) / ${screenScale.tablet});
       line-height: calc(34px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: 90%;
+      font-size:calc(var(--basic-font-size) / 1.5);
+      line-height: calc(34px / 1.5);
+      margin: 0 5%;
+    `}
 
     & .title-body {
       text-align: left;
@@ -112,6 +130,9 @@ export const Styled_CSTable = {
         `}
         ${DeviceQuery.tablet`
           font-size:calc(var(--basic-font-size) / ${screenScale.tablet});
+        `}
+        ${DeviceQuery.mobile`
+          font-size:calc(var(--basic-font-size) / 1.5);
         `}
 
         &:hover {
@@ -144,6 +165,9 @@ export const Styled_CSTable = {
     ${DeviceQuery.tablet`
       height:calc(60px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      height:calc(60px / 1.5);
+    `}
   `,
   Td: styled.td`
     white-space: nowrap; //줄바꿈 방지
@@ -169,6 +193,10 @@ export const Styled_CSTable = {
       font-size:calc(var(--basic-font-size) / ${screenScale.tablet});
       margin-top:calc(3px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      font-size:calc(var(--basic-font-size) / 1.5);
+      margin-top:calc(3px / ${screenScale.mobile});
+    `}
     &:first-child {
       color: var(--primary-background-color);
     }
@@ -189,6 +217,9 @@ export const Styled_CSTable = {
     `}
     ${DeviceQuery.tablet`
       height:calc(300px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      height:calc(300px / ${screenScale.mobile});
     `}
   `,
 };
