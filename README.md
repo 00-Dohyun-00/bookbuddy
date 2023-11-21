@@ -98,7 +98,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 <br />
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>Home 시연</th>
@@ -109,7 +109,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/764379bd-4517-40e3-81c2-81b6a49e0bcf" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## 로그인, 회원가입
@@ -163,7 +163,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>장바구니 시연</th>
@@ -174,9 +174,9 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/3c302589-0bb0-47b8-b71f-4fab5e496a63" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>결제 시연</th>
@@ -187,7 +187,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/345433aa-e8b4-40fa-bca9-9fd654e82f1e" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## 마이페이지
@@ -245,7 +245,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>주문내역 시연</th>
@@ -256,7 +256,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/bf96e6a7-48d0-41ec-88f3-5332f0f128a8" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## 1:1 문의
@@ -290,7 +290,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>1:1문의 시연</th>
@@ -301,7 +301,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/27e57506-a203-4dec-bcac-26f148c10c6a" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## 북마크
@@ -366,7 +366,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>admin 1:1 문의 답변 관리 시연</th>
@@ -389,7 +389,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/af63268d-bfc9-48af-b8f1-58c44aac80f6" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## 반응형
@@ -397,12 +397,17 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 <table>
   <thead>
     <tr>
-      <th>반응형 시연</th>
+      <th>반응형 - 모바일 사이즈</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/c1ed4c34-d309-4cb6-932c-254e8e489a02" width="80%"></th>
+<!--       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/c1ed4c34-d309-4cb6-932c-254e8e489a02" width="80%"></th> -->
+      <th>
+        <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/7068736a-7753-4fdf-8168-fabdaa0035b4" width="30%">
+        <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/0d136b00-5bea-40c8-9fd0-fc63b34e403c" width="30%">
+        <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/2f3425cb-1ec7-4e79-9245-d0316305935f" width="30%">
+      </th>
     </tr>
   </tbody>
 </table>
