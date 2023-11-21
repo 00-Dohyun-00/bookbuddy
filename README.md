@@ -31,7 +31,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
     </tr>
     <tr>
       <th>백엔드 전반</th>
-      <th>프론트엔드 전반<br />(로그인, 회원가입, Search 외)<br />전체 페이지 반응형 등</th>
+      <th>반응형 <br /> 일부 제외한 프론트엔드 전반 <br />(화면 및 기능에 표시)</th>
       <th>로그인, 회원가입, Search</th>
     </tr>
   </tbody>
@@ -80,8 +80,9 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </div>
 
 # 📺 화면 및 기능
+✅표시: 만든사람 이도현, 구현내용이 따로 표시되어있지 않으면 UI, 기능 전체 제작
 
-## HOME
+## HOME ✅
 
 <table>
   <thead>
@@ -130,7 +131,9 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table>
 <br />
 
-## 도서 상세
+## 도서 상세 ✅
+
+✅ 구현내용 -> 기능: O / UI: X
 
 <table>
   <thead>
@@ -146,7 +149,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table>
 <br />
 
-## 장바구니 & 결제
+## 장바구니 & 결제 ✅
 
 <table>
   <thead>
@@ -190,7 +193,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table> -->
 <br />
 
-## 마이페이지
+## 마이페이지 ✅
 
 <table>
   <thead>
@@ -206,7 +209,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-### 마이페이지 기능
+### 마이페이지 기능 ✅
 
 <table>
   <thead>
@@ -228,7 +231,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table>
 <br />
 
-## 최근, 전체 주문내역
+## 최근, 전체 주문내역 ✅
 
 <table>
   <thead>
@@ -259,7 +262,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table> -->
 <br />
 
-## 1:1 문의
+## 1:1 문의 ✅
 
 <table>
   <thead>
@@ -304,7 +307,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table> -->
 <br />
 
-## 북마크
+## 북마크 ✅
 
 <table>
   <thead>
@@ -335,7 +338,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table> -->
 <br />
 
-## admin (관리자계정)
+## admin (관리자계정) ✅
 
 <table>
   <thead>
@@ -392,7 +395,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
 </table> -->
 <br />
 
-## 반응형
+## 반응형 ✅
 
 <table>
   <thead>
