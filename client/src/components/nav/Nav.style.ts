@@ -18,6 +18,9 @@ export const Styled_Nav = {
     ${DeviceQuery.tablet`
       top: calc(133px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      top: calc(133px / ${screenScale.mobile});
+    `}
   `,
   Div: styled.div`
     /* width: 1512px; */
@@ -39,6 +42,9 @@ export const Styled_Nav = {
     ${DeviceQuery.tablet`
       height: calc(58px / ${screenScale.tablet});
       width: calc(820px);
+    `}
+    ${DeviceQuery.mobile`
+      height: calc(58px / ${screenScale.mobile});
     `}
   `,
 
@@ -69,6 +75,12 @@ export const Styled_Nav = {
       padding-left: calc(50px / ${screenScale.tablet});
       padding-right: calc(50px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      gap: calc(30px / ${screenScale.mobile});
+      width: 100vw;
+      padding-left: calc(50px / ${screenScale.mobile});
+      padding-right: calc(50px / ${screenScale.mobile});
+    `}
   `,
 
   Span: styled.span`
@@ -84,6 +96,9 @@ export const Styled_Nav = {
     `}
     ${DeviceQuery.tablet`
       font-size: calc(var(--third-title-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--third-title-font-size) / 1.5);
     `}
   `,
 };

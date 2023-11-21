@@ -34,5 +34,11 @@ export const Styled_Search = {
       screenScale.tablet
     });
   `}
+  ${DeviceQuery.mobile`
+    width: calc(${(props: SearchProps) => props.width}px / 1.5);
+    height: calc(${(props: SearchProps) => props.height}px / 1.5);
+    position: relative;
+    top: 3px;
+  `}
   `,
 };

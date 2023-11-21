@@ -1,6 +1,7 @@
 import { css } from 'styled-components';
 
 export const screenScale = {
+  mobile: 2,
   tablet: 2.5,
   desktop: 1.8,
   bigScreen: 1.3,
@@ -13,6 +14,7 @@ export const screenScale = {
  * 데스크탑 1024px~
  */
 export const DeviceSize: DeviceProps = {
+  mobile: 480,
   tablet: 820,
   desktop: 1024,
   bigScreen: 1700,

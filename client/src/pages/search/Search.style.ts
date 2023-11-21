@@ -66,6 +66,12 @@ const Styled_Search = {
       padding-right: calc(53.5px / ${screenScale.tablet});
       padding-top: calc(44px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      margin-left: 0;
+      margin-top: 9.5rem;
+      width: 100vw;
+      border-top: 1px solid var(--light-gray-color)
+    `}
   `,
   Title: styled.div`
     display: flex;
@@ -96,13 +102,16 @@ const Styled_Search = {
     ${DeviceQuery.tablet`
       font-size: calc(var(--title-font-size) / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--title-font-size) / 1.5);
+    `}
   `,
 
   Books: styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 66px;
-    justify-content: center;
+    justify-content: start;
 
     ${DeviceQuery.bigScreen`
       gap: calc(66px / ${screenScale.bigScreen});
@@ -112,6 +121,10 @@ const Styled_Search = {
     `}
     ${DeviceQuery.tablet`
       gap: calc(66px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      gap: calc((100% - 255px) / 2);
+      margin: 0 10px;
     `}
   `,
   Msg: styled.span`

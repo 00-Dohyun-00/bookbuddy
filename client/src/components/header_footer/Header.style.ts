@@ -38,6 +38,12 @@ export const Styled_Header = {
       padding-left: calc(50px / ${screenScale.tablet});
       padding-right: calc(50px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      min-width: 100%;
+      height: calc(133px / ${screenScale.mobile});
+      padding-left: calc(50px / ${screenScale.mobile});
+      padding-right: calc(50px / ${screenScale.mobile});
+    `}
   `,
   Menu: styled.div`
     display: flex;
@@ -73,6 +79,9 @@ export const Styled_Header = {
     `}
     ${DeviceQuery.tablet`
       font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--basic-font-size) / 1.5);
     `}
 
     &:hover > div {
