@@ -321,7 +321,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
   </tbody>
 </table>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>북마크 시연</th>
@@ -332,7 +332,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
       <th><img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/81351137-89fb-4402-955b-f90ea521904b" width="80%"></th>
     </tr>
   </tbody>
-</table>
+</table> -->
 <br />
 
 ## admin (관리자계정)
