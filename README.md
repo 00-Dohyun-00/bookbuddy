@@ -31,7 +31,7 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
     </tr>
     <tr>
       <th>백엔드 전반</th>
-      <th>프론트엔드 전반, 반응형<br />(로그인, 회원가입, Search 외)</th>
+      <th>프론트엔드 전반<br />(로그인, 회원가입, Search 외)<br />전체 페이지 반응형 등</th>
       <th>로그인, 회원가입, Search</th>
     </tr>
   </tbody>
