@@ -84,7 +84,7 @@ const Adress = () => {
                 </td>
               </tr>
               <tr>
-                <td>배송주소*</td>
+                <td>배송지*</td>
                 <td colSpan={2}>
                   <Input
                     type="text"
@@ -99,7 +99,7 @@ const Adress = () => {
               </tr>
               <tr>
                 <td></td>
-                <td>도로명 주소*</td>
+                <td>도로명주소*</td>
                 <td>
                   <Input
                     type="text"
@@ -113,7 +113,7 @@ const Adress = () => {
               </tr>
               <tr>
                 <td></td>
-                <td>상세 주소*</td>
+                <td>상세주소*</td>
                 <td>
                   <Input
                     type="text"

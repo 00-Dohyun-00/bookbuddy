@@ -26,6 +26,11 @@ export const Styled_PhoneNumber = {
       height: calc(40px / ${screenScale.tablet});
       font-size: calc(var(--input-font-size) / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: calc(80px / ${screenScale.mobile});
+      height: calc(40px / ${screenScale.mobile});
+      font-size: calc(var(--input-font-size) / ${screenScale.mobile});
+    `}
 
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;
@@ -53,6 +58,11 @@ export const Styled_PhoneNumber = {
       width: calc(80px / ${screenScale.tablet});
       height: calc(40px / ${screenScale.tablet});
       font-size: calc(var(--input-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: calc(80px / ${screenScale.mobile});
+      height: calc(40px / ${screenScale.mobile});
+      font-size: calc(var(--input-font-size) / ${screenScale.mobile});
     `}
   `,
 };

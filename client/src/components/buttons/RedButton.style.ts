@@ -70,7 +70,7 @@ export const Styled_RedButton = {
         props.height ? `calc(${props.height}px / 1.5)` : 'calc(56px / 1.5)'};
 
       width: ${(props: StyledRedButtonProps) =>
-        props.width ? `calc(${props.width}px / 1.5)` : 'calc(195px / 1.5)'};
+        props.width ? `calc(${props.width}px / 1.6)` : 'calc(195px / 1.6)'};
     `}
   `,
 };
