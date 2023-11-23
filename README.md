@@ -410,6 +410,9 @@ AWS CloudFront : https://ddzj7ntlv5rcr.cloudfront.net/ (현재 서버 연결 x)
         <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/7068736a-7753-4fdf-8168-fabdaa0035b4" width="30%">
         <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/0d136b00-5bea-40c8-9fd0-fc63b34e403c" width="30%">
         <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/2f3425cb-1ec7-4e79-9245-d0316305935f" width="30%">
+        <br />
+        <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/15eeae66-a3a2-401d-b384-6c37fffce0f3" width="30%">
+        <img src="https://github.com/AngryDoggaebi/bookbuddy/assets/120698922/51f44bf7-df4a-4034-a87e-739129088c76" width="30%">
       </th>
     </tr>
   </tbody>
