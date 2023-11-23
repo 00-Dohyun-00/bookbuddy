@@ -5,6 +5,9 @@ const Styled_Customer = {
   Container: styled.div`
     display: flex;
     flex-flow: column;
+    ${DeviceQuery.mobile`
+      width: 100vw;
+    `}
   `,
   Warpper: styled.div`
     display: flex;

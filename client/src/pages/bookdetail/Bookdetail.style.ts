@@ -31,6 +31,7 @@ const Styled_Bookdetail = {
       margin-left: 0;
       margin-top: 9.5rem;
       width: 100vw;
+      border-top: 1px solid var(--light-gray-color);
     `}
   `,
   Container: styled.div`
@@ -52,6 +53,7 @@ const Styled_Bookdetail = {
     ${DeviceQuery.mobile`
       gap: 2rem;
       flex-flow: column;
+      margin-top: 30px;
     `}
   `,
   ImageWrapper: styled.div`

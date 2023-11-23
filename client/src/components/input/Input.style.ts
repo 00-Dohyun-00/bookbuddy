@@ -58,6 +58,17 @@ const Styled_Input = {
           ? `calc(${props.width}px / ${screenScale.tablet})`
           : `calc(415px / ${screenScale.tablet})`};
     `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--input-font-size) / ${screenScale.mobile});
+      padding: calc(10px / ${screenScale.mobile});
+      
+      height: ${(props: Styled_InputProps) =>
+        props.height
+          ? `calc(${props.height}px / ${screenScale.mobile})`
+          : `calc(60px / ${screenScale.mobile})`};
+
+      width: ${(props: Styled_InputProps) => (props.width ? '75%' : '75%')};
+    `}
   `,
 };
 export default Styled_Input;

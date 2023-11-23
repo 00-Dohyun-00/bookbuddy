@@ -22,6 +22,11 @@ const Styled_FQA = {
       margin-bottom: calc(20px / ${screenScale.tablet});
       font-size: calc(var(--subtitle-font-size) / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      margin-bottom: calc(20px / ${screenScale.mobile});
+      font-size: calc(var(--subtitle-font-size) / 1.5);
+      margin-left: 1.5rem
+    `}
   `,
   Question: styled.div`
     width: 1300px;
@@ -46,6 +51,11 @@ const Styled_FQA = {
       height: calc(50px / ${screenScale.tablet});
       padding: calc(40px / ${screenScale.tablet}) 20px;
     `}
+    ${DeviceQuery.mobile`
+      width: 100vw;
+      height: calc(50px / ${screenScale.mobile});
+      padding: calc(40px / ${screenScale.mobile}) 20px;
+    `}
   `,
   QuestionTitle: styled.h2`
     font-size: var(--third-title-font-size);
@@ -65,6 +75,10 @@ const Styled_FQA = {
       width: calc(1300px / ${screenScale.tablet});
       font-size: calc(var(--third-title-font-size) / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: 100vw;
+      font-size: calc(var(--third-title-font-size) / 1.5);
+    `}
   `,
   ArrowWrapper: styled.div`
     cursor: pointer;
@@ -80,6 +94,9 @@ const Styled_FQA = {
     `}
     ${DeviceQuery.tablet`
       width: calc(1300px / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      width: 100vw;
     `}
   `,
   Answer: styled.div`
@@ -98,6 +115,10 @@ const Styled_FQA = {
     ${DeviceQuery.tablet`
       padding: calc(45px / ${screenScale.tablet});
       font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      padding: calc(45px / ${screenScale.mobile});
+      font-size: calc(var(--basic-font-size) / 1.5);
     `}
   `,
 };

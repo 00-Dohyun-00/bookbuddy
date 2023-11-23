@@ -44,6 +44,10 @@ export const Styled_Layout = {
       width: calc(1300px / ${screenScale.tablet});
       padding-top: calc(60px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: 100vw;
+      padding-top: calc(60px / ${screenScale.mobile});
+    `}
   `,
   // H1
   H1: styled.h1`
@@ -63,6 +67,11 @@ export const Styled_Layout = {
       font-size: calc(var(--title-font-size) / ${screenScale.tablet});
       margin-bottom: calc(60px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--title-font-size) / 1.5);
+      margin-bottom: calc(60px / ${screenScale.mobile});
+      margin-left: 1.3rem;
+    `}
 
     &.noOrderItem {
       width: 1300px;
@@ -75,6 +84,9 @@ export const Styled_Layout = {
       `}
       ${DeviceQuery.tablet`
         width: calc(1300px / ${screenScale.tablet});
+      `}
+      ${DeviceQuery.mobile`
+        width: calc(1300px / ${screenScale.mobile});
       `}
     }
   `,

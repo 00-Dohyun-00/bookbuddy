@@ -31,11 +31,20 @@ export const Styled_Payment = {
       ${DeviceQuery.tablet`
         margin-top: calc(42px / ${screenScale.tablet});
       `}
+      ${DeviceQuery.mobile`
+        margin-top: calc(42px / ${screenScale.mobile});
+        margin-right: 5%
+      `}
     }
   `,
   Address: styled.div`
     display: flex;
     justify-content: space-between;
+
+    ${DeviceQuery.mobile`
+        flex-flow: column;
+        align-items: center;
+      `}
 
     & > div {
       display: flex;
@@ -59,6 +68,10 @@ export const Styled_Payment = {
         width: calc(722px / ${screenScale.tablet});
         height: calc(472px / ${screenScale.tablet});
       `}
+      ${DeviceQuery.mobile`
+          width: 90%;
+          height: calc(472px / ${screenScale.mobile});
+      `}
     }
     & > .orderer-info {
       display: flex;
@@ -77,6 +90,11 @@ export const Styled_Payment = {
       ${DeviceQuery.tablet`
         width: calc(525px / ${screenScale.tablet});
         height: calc(472px / ${screenScale.tablet});
+      `}
+      ${DeviceQuery.mobile`
+          width: 90%;
+          height: calc(472px / ${screenScale.mobile});
+          margin-top: 1rem;
       `}
     }
   `,
@@ -99,6 +117,10 @@ export const Styled_Payment = {
         font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
         line-height: calc(34px / ${screenScale.tablet});
       `}
+    ${DeviceQuery.mobile`
+      font-size: calc(var(--basic-font-size) / ${screenScale.mobile});
+      line-height: calc(34px / ${screenScale.mobile});
+    `}
 
     &#shipping-address-table {
       width: 650px;
@@ -115,6 +137,10 @@ export const Styled_Payment = {
       ${DeviceQuery.tablet`
         width: calc(650px / ${screenScale.tablet});
         height: calc(350px / ${screenScale.tablet});
+      `}
+      ${DeviceQuery.mobile`
+        width: 90%;
+        height: calc(350px / ${screenScale.mobile});
       `}
     }
     &#orderer-info-table {
@@ -133,11 +159,18 @@ export const Styled_Payment = {
         width: calc(453px / ${screenScale.tablet});
         height: calc(280px / ${screenScale.tablet});
       `}
+      ${DeviceQuery.mobile`
+        width: 90%;
+        height: calc(280px / ${screenScale.mobile});
+      `}
     }
 
     & td {
       /* border: solid 1px black; */
       text-align: left;
+      ${DeviceQuery.mobile`
+         height: 36px;
+      `}
     }
   `,
   SubTitle: styled.div`
@@ -156,6 +189,10 @@ export const Styled_Payment = {
       width: calc(453px / ${screenScale.tablet});
       margin-bottom: calc(20px / ${screenScale.tablet});
     `}
+    ${DeviceQuery.mobile`
+      width: 90%;
+      margin-bottom: calc(20px / ${screenScale.mobile});
+    `}
 
     & > h2 {
       margin: 15px 0;
@@ -172,6 +209,10 @@ export const Styled_Payment = {
       ${DeviceQuery.tablet`
         margin: calc(15px / ${screenScale.tablet}) 0;
         font-size: calc(var(--subtitle-font-size) / ${screenScale.tablet});
+      `}
+      ${DeviceQuery.mobile`
+        margin: calc(15px / ${screenScale.mobile}) 0;
+        font-size: calc(var(--subtitle-font-size) / ${screenScale.mobile});
       `}
     }
 
@@ -191,6 +232,10 @@ export const Styled_Payment = {
       ${DeviceQuery.tablet`
         margin-right: calc(10px / ${screenScale.tablet});
         font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
+      `}
+      ${DeviceQuery.mobile`
+        margin-right: calc(10px / ${screenScale.mobile});
+        font-size: calc(var(--basic-font-size) / 1.5);
       `}
     }
   `,
@@ -215,6 +260,12 @@ export const Styled_Payment = {
       min-height: calc(150px / ${screenScale.tablet});
       margin-top: calc(30px / ${screenScale.tablet});
       font-size: calc(var(--basic-font-size) / ${screenScale.tablet});
+    `}
+    ${DeviceQuery.mobile`
+      min-height: calc(150px / ${screenScale.mobile});
+      margin-top: calc(30px / ${screenScale.mobile});
+      font-size: calc(var(--basic-font-size) / 1.5);
+      background-color: white;
     `}
   `,
   AdrBtn: styled.button`
